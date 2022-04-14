@@ -16,6 +16,7 @@ export default function Home() {
         <link rel="manifest" href="/manifest.webmanifest.json" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="theme-color" href="#D48F20C6" />
+        <meta name="background_color" content="#D48F20C6" />
       </Head>
     </div>
   );
