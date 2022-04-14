@@ -1,9 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 html,
 body {
   padding: 0;
   margin: 0;
   font-family: Segoe UI, Roboto, sans-serif;
-  background-color: #131b21;
+  background-color: #d48f20c6;
 }
 
 a {

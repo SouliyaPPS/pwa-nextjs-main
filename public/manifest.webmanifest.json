@@ -1,25 +1,25 @@
 {
-  "short_name": "React Boilerplate App",
-  "name": "React Boilerplate App",
-  "description": "A PWA boilerplate/reference application in React",
+  "short_name": "Buddhaword",
+  "name": "Buddhaword",
+  "description": "Buddhaword",
   "icons": [
     {
-      "src": "/vercel-icon-192x192.png",
+      "src": "/ic_launcher-192.png",
       "type": "image/png",
       "sizes": "192x192",
       "purpose": "any maskable"
     },
     {
-      "src": "/vercel-icon-152x152.png",
+      "src": "/favicon.ico",
       "type": "image/png",
       "sizes": "512x512",
       "purpose": "any maskable"
     }
   ],
   "start_url": "/",
-  "background_color": "#FFFFFF",
+  "background_color": "#D48F20C6",
   "display": "standalone",
   "scope": "/",
-  "theme_color": "#6850ff",
+  "theme_color": "#D48F20C6",
   "orientation": "portrait"
 }

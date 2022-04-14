@@ -20,7 +20,7 @@ export const pwaTrackingListeners = () => {
 
   //Track web app install by user
   window.addEventListener("appinstalled", (event) => {
-    fireTracking("PWA app installed by user!!! Hurray");
+    fireTracking("Buddhaword App installed");
   });
 
   //Track from where your web app has been opened/browsed
