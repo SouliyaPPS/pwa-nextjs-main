@@ -46,8 +46,8 @@ function Main() {
   };
 
   return (
-    <div className="flex justify-center items-center flex-col pt-41 text-center font-bold lg:text-8xl text-6xl space-y-2">
-      <div className="text-gray-900 pb-10">
+    <div className="flex justify-center items-center flex-col pb-20 text-center font-bold lg:text-8xl text-6xl space-y-2">
+      <div className="text-gray-900 pb-1">
         <A2HS />
       </div>
       {/* https://recraft-shop.blogspot.com/ */}
