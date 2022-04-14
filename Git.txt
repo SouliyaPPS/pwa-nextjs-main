@@ -2,5 +2,5 @@ git init
 git add .
 git commit -m "first"
 git branch -M main
-git remote add origin https://github.com/SouliyaPPS/buddhaword-app.git
+git remote add origin https://github.com/SouliyaPPS/pwa-nextjs-main.git
 git push -u origin main
