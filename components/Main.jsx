@@ -51,7 +51,7 @@ function Main() {
         <A2HS />
       </div>
       {/* https://recraft-shop.blogspot.com/ */}
-      <NavLink to="https://www.appsheet.com/start/5480d3a7-719a-4436-9de6-8da95283b56e">
+      <NavLink to="/">
         {installable && (
           <div
             onClick={handleInstallClick}
