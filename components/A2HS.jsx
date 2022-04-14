@@ -21,29 +21,29 @@ export default function A2HS() {
   useEffect(() => {
     slideRef.current.addEventListener("animationend", removeAnimation);
     slideRef.current.addEventListener("mouseenter", pauseSlider);
-    slideRef.current.addEventListener("mouseleave", startSlider);
+    // slideRef.current.addEventListener("mouseleave", startSlider);
 
-    startSlider();
-    return () => {
-      pauseSlider();
-    };
+    // startSlider();
+    // return () => {
+    //   pauseSlider();
+    // };
   }, []);
 
-  const startSlider = () => {
-    slideInterval = setInterval(() => {
-      handleOnNextClick();
-    }, 5000);
-  };
+  // const startSlider = () => {
+  //   slideInterval = setInterval(() => {
+  //     handleOnNextClick();
+  //   }, 5000);
+  // };
 
   const pauseSlider = () => {
     clearInterval(slideInterval);
   };
 
-  const handleOnNextClick = () => {
-    count = (count + 1) % featuredProducts.length;
-    setCurrentIndex(count);
-    slideRef.current.classList.add("fade-anim");
-  };
+  // const handleOnNextClick = () => {
+  //   count = (count + 1) % featuredProducts.length;
+  //   setCurrentIndex(count);
+  //   slideRef.current.classList.add("fade-anim");
+  // };
 
   return (
     <div ref={slideRef} className="relative select-none">
